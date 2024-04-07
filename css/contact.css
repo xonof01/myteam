@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Livvic', sans-serif;
+  background-color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 1130px;
+  padding: 0 10px;
+}
+
+
+/* HEADER PART, DESGIN BY ARSLONBEK*/
+
+
+header{
+  background-color: #014e56;
+}
+
+.header__all{
+  padding: 50px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header__list {
+  list-style: none;
+}
+
+.header__item a{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #fff;
+  text-decoration: none;
+  margin-right: 40px;
+}
+.header__link :hover {
+  color: #f67e7e;
+}
+.header__logo {
+  margin-right: 40px;
+}
+
+.header__contact{
+  text-align: center;
+  padding: 10px 32px;
+  border: 2px solid #fff;
+  border-radius: 24px;
+}
+
+.header__contact:hover{
+  color: #002529;
+  border: 2px solid #fff;
+  background-color: #fff;
+}
+
+.header__contact:active {
+  background-color: transparent;
+  border: 2px solid #fff;
+  opacity: 0.4;
+  color: #fff;
+}
+
+
+/* CONTACT PART, DESGIN BY Akbarali*/
+
+.contact {
+  background-image: url('../img/contact-back-left.png'), url('../img/contact-back-right.png');
+  background-repeat: no-repeat;
+  background-position: top 120px left, bottom right;
+  background-color: #014e56;
+  padding: 120px 0px;
+}
+
+.contact__main {
+  width: 540px;
+}
+
+.contact__title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 100px;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.contact__desc {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 48px;
+  color: #f67e7e;
+  margin-bottom: 32px;
+}
+
+.contact__list {
+  list-style-type: none;
+}
+
+.contact__item {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #fff;
+  margin-bottom: 8px;
+}
+.contact__item::before, .usage::before, .how::before {
+  content: '';
+  width: 72px;
+  height: 72px;
+  display: inline-block;
+  background-image: url('../img/the-icon.png');
+  background-repeat: no-repeat;
+  margin-right: 23px;
+}
+
+.usage::before {
+  background-image: url('../img/useage-icon.png');
+}
+
+.how::before {
+  background-image: url('../img/how-icon.png');
+}
+
+.contact__formbox {
+  width: 540px;
+}
+
+.contact__label {
+  display: inline-block;
+  width: 100%;
+  border-bottom: 1px solid #ffffff9d;
+  margin-bottom: 24px;
+  padding-bottom: 16px;
+  padding-left: 15px;
+}
+.contact__label:hover {
+  border-bottom: 1px solid #79c8c7;
+
+}
+
+.contact__input {
+  width: 445px;
+  background: none;
+  border:none;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: -0.115385px;
+  color: #fff;
+}
+
+.contact__input::placeholder {
+  color: #fff;
+  opacity: 0.6;
+
+}
+
+.contact__input:focus {
+  outline: none;
+}
+
+.contact__input-mess {
+  background: none;
+  border: none;
+  width: 445px;
+  height: 58px;
+  resize: none;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: -0.115385px;
+  color: #fff;
+}
+.contact__input-mess::placeholder {
+  color: #fff;
+  opacity: 0.6;
+}
+
+.contact__input-mess:focus {
+  outline: none;
+  border: none;
+  color: #fff;
+}
+
+.contact__btn {
+  text-transform: lowercase;
+  background: transparent;
+  border: 2px solid #fff;
+  border-radius: 24px;
+  padding: 11px 32px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #fff;
+}
+
+.contact__btn:hover {
+  background-color: #fff;
+  border: 2px solid #fff;
+  color: #004047;
+}
+
+.contact__btn:active {
+  background: transparent;
+  opacity: 0.4;
+  color: #fff;
+}
+
+
+
+/* FOOTER PART DESGIN BY MUHAMMADALI  */
+
+
+#footer {
+  background-color: #002529;
+  padding: 48px 0;
+}
+
+.footer__inner {
+  margin-right: 125px;
+}
+
+.footer__logo {
+  margin-bottom: 25px;
+}
+
+.footer__list {
+  list-style: none;
+}
+
+.footer__item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.footer__link {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #fff;
+}
+
+.footer__link:hover {
+  color: #f67e7e;
+}
+.footer__link:active {
+  color: #bfcbcc;
+}
+
+.footer__adress {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  color: #fff;
+  opacity: 0.6;
+}
+.social__list {
+  list-style: none;
+  margin-bottom: 50px;
+  justify-content: right;
+}
+
+.social__item:not(:last-child) {
+  margin-right: 16px;
+}
+
+.social__copy {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  color: #fff;
+  opacity: 0.6;
+}
